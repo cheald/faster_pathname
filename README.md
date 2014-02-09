@@ -1,5 +1,7 @@
 # FasterPathname
 
+![Travis build status](https://travis-ci.org/cheald/faster_pathname.png)
+
 Pathname is slow. This makes Sprockets slow. This gem patches some of the slowest methods in
 Pathname to make Sprockets fast.
 
