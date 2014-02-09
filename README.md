@@ -3,6 +3,8 @@
 Pathname is slow. This makes Sprockets slow. This gem patches some of the slowest methods in
 Pathname to make Sprockets fast.
 
+See [this issue](https://github.com/sstephenson/sprockets/issues/506) for an overview of the issue.
+
 ## Installation
 
 Add this line to your application's Gemfile:
