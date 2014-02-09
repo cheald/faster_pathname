@@ -6,4 +6,4 @@ rvm:
   - 2.1.0
 matrix:
   allow_failures:
-    rvm: jruby
+    - rvm: jruby
