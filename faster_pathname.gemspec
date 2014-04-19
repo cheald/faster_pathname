@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["cheald@gmail.com"]
   spec.summary       = %q{Patches some parts of the Pathname Ruby stdlib class for improved performance}
   spec.description   = %q{Patches some parts of the Pathname Ruby stdlib class for improved performance}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/cheald/faster_pathname"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
