@@ -1,6 +1,6 @@
 class Pathname
   def relative?
-    @path[0] != File::SEPARATOR && @path[0] != File::ALT_SEPARATOR
+    @path[0] != File::SEPARATOR && @path[0] != File::ALT_SEPARATOR && !@path.match(/^[a-z]:/i)
   end
 
   def join(*args)
